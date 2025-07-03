@@ -1,0 +1,236 @@
+.man-shoes-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.shoes-list__title {
+    display: flex;
+}
+
+.shoes-list__small {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.shoes-list__small img {
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.shoes-list__small img:hover {
+    transform: scale(1.1);  
+}
+
+.shoes-Description {
+   display: flex;
+   flex-direction: column; 
+   min-width: 50%; 
+}
+
+.man-shoes-img {
+    margin: auto;
+}
+
+.shoes-img__model {
+    width: auto;
+    height: 500px;
+    transition: transform 0.3s ease;
+
+}
+
+.shoes-img__model:hover  {
+    transform: scale(1.2);   
+} 
+
+.shoes-img__small {
+    display: flex; 
+} 
+
+.shoes-img__small img {
+    width: 100px;
+} 
+
+.shoes-Description__other {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.shoes-Description__color {
+    display: flex; 
+    align-items: center;
+    justify-content: center;  
+}
+
+.shoes-Description__color img {
+    width: 100px; 
+    margin: 0 5px;
+    transition: transform 0.3s ease;
+}
+
+.shoes-Description__color img:hover {
+    transform: scale(1.2);  
+}
+
+.shoes-Description__Size {
+    flex-wrap: wrap;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.shoes-Description__Size__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.shoes-Description__Size__other {
+    border: 1px solid grey;
+    width: 70px;
+    height: 30px;
+    display: inline-block; 
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 5px; 
+    margin-bottom: 5px; 
+    background-color: rgb(209, 202, 202);
+    border-radius: 10px;
+}
+
+
+.shoes-Description__sale__other {
+    display: block;
+    text-align: center;
+    justify-content: center; 
+    margin: auto;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.shoes-Description__sale__other__list {
+    display: flex;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.сharacteristic-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.сharacteristic-container__shoes {
+    padding: 20px 20px;
+    width: fit-content;
+    margin-top: 1rem;
+}
+
+.сharacteristic-container__shoes__title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.сharacteristic-shoes__other {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.сharacteristic-shoes__title {
+    border: 2px solid grey;
+    width: 50%;
+    height: auto;
+}
+
+.сharacteristic-shoes__title__name {
+display: flex;
+font-size: 22px;
+font-weight: bold;
+padding-left: 20px;
+padding-top: 10px;
+}
+
+.сharacteristic-shoes__title__text {
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+
+.сharacteristic-container__buy {
+    width: 50%;
+    border: 2px solid grey;
+}
+.сharacteristic-container__buy__name {
+display: flex;
+font-size: 22px;
+font-weight: bold;
+padding-left: 20px;
+padding-top: 10px;
+}
+
+ 
+@media (max-width: 768px) {
+    .man-shoes-container {
+        flex-direction: column; 
+    }
+}
+@media (max-width: px) {
+    .man-shoes-container {
+        flex-direction: column; 
+    }
+}
+
+@media (max-width: 768px) {
+    .shoes-list__small {
+        display: inline-block; 
+    }
+}
+
+@media (max-width: 1200px) {
+.shoes-Description__color {
+    display: inline-block; 
+}
+}
+
+@media (max-width: 1558px) {
+    .shoes-Description__color {
+        display: inline-block; 
+    }
+    .man-shoes-container {
+        flex-wrap: nowrap; 
+    }
+    }
+    
+
+    @media (max-width: 768px) {
+        .сharacteristic-shoes__other,
+        .сharacteristic-shoes__title__name {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .сharacteristic-shoes__title,
+        .сharacteristic-container__buy {
+            width: 100%;
+        }
+   }
+ 

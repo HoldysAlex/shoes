@@ -1,0 +1,43 @@
+@import url(normilize.css);
+@import url(common.css);
+@import url(header.css);
+@import url(banner.css);
+@import url(brand.css);
+@import url(brand-section.css);
+@import url(model-random.css);
+@import url(news.css);
+@import url(MB03Toxic.css);
+@import url(Jumpman.css);
+@import url(about-brand.css);
+@import url(20-Best-Named-Sneakers.css);
+@import url(about-adidas.css);
+@import url(burger.css);
+@import url(licenses.css);
+@import url(adidas-licenses.css);
+@import url(man-shoes.css);
+@import url(nike-shoes.css);
+@import url(proba.css);
+@import url(choose-news.css);
+@import url(footer.css);
+
+
+ 
+
+ 
+.news-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.product-container {
+    border: 2px solid yellow;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.body {
+    width: 1500px;
+    margin: auto;
+}

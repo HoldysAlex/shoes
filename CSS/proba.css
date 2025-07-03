@@ -1,0 +1,476 @@
+.konteyner-proba {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.krossovki-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+
+.malenkie-kartinki {
+    display: block;
+    width: 55px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;  
+    height: 590px;
+    flex-wrap: wrap;  
+}
+
+
+.malenkie-kartinki__razmer {
+    width: 55px;
+    height: auto;
+    padding-bottom: 2px;
+}
+
+.bolshaya-kartinka {
+    width: 600px;
+    height: 620px;
+    object-fit: contain;
+}
+
+.konteyner-proba-dva {
+    flex-grow: 1;  
+    flex-wrap: wrap;
+    flex-direction: column;  
+    align-items: center;  
+    display: flex;
+    width: 400px;
+}
+
+.nazvanie-krossovka {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;  
+}
+.nazvanie-krossovka__tekst {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nazvanie-krossovka__tekst__dva {
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    padding-bottom: 5px;
+}
+
+.nazvanie-krossovka__variantcvetyov {
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.nazvanie-krossovka__variantcvetyov img {
+    max-width: 95px;
+    transition: transform 0.3s ease;
+}
+
+.nazvanie-krossovka__variantcvetyov img:hover {
+    transform: scale(1.05);  
+}
+
+.dostupni-rozmiry {
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: center;  
+    padding-bottom: 5px;
+}
+
+.dostupni-rozmiry__Size {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;  
+    margin-right: 5px; 
+    margin-left: 5px; 
+    margin-bottom: 5px;
+    border: 2px solid grey;
+}
+ 
+
+.Kratroe-opisanie {
+    display: flex;
+    flex-direction: column;
+}
+
+.Kratroe-opisanie__tekst {
+    font-size: 22px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;  
+}
+
+.Kratroe-opisanie__ostalnoe {
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.krossovki-card__variant {
+    width: 80%;
+    height: 80px;
+    max-width: 100%; 
+    display: flex;
+    margin: auto;
+}
+
+.krossovki-card__variant__text {
+    display: flex;
+    font-size: 32px;
+    color: grey;
+    max-width: 100%;  
+    text-decoration: underline;  
+    text-underline-offset: 7px;  
+    padding: 10px;
+    justify-content: center;
+}
+
+.krossovki-container {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.krossovki-other {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+     margin: 0 auto;
+}
+
+.krossovki-card {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 385px; /* Додаємо максимальну ширину для блока model-card */
+    width: 100%; /* Забезпечує повне використання доступної ширини в батьківському контейнері */
+    border: 1px solid grey;
+    padding: 10px;
+    border: none; 
+    transition: border 0.3s ease;
+}
+
+.krossovki-card__title {
+    font-size: 16px;
+    gap: 1rem;
+}
+
+.other {
+    text-underline-offset: 7px; /* Встановіть бажаний відступ від тексту до підкреслення */
+}
+
+.krossovki-card img {
+    height: auto;
+    max-width: 100%; /* Забезпечує адаптивність ширини картинки в межах батьківського контейнера */
+
+}
+
+.name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.color {
+    color: gray;
+    font-size: 14px;
+}
+
+.krossovki-card:hover {
+    outline: 1px solid grey;  
+
+}
+
+.krossovki-color-other {
+    display: flex; /* Встановлюємо властивість flex для контейнера, щоб картинки розташовувалися в рядок */
+}
+.krossovki-color-other img {
+    width: 50px; /* Встановлюємо ширину картинок на 50 пікселів */
+    height: auto; /* Зберігаємо пропорції, автоматично змінюючи висоту */
+    margin-right: 5px; /* Додаємо невеликий відступ між картинками */
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .krossovki-other__text {
+        text-align: center; /* Забезпечує центрування тексту при зменшенні екрану */
+        margin: 0 auto; /* Забезпечує центрування блоків по центру сторінки при зменшенні екрану */
+    }
+}
+
+.purchase {
+    display: flex;
+    width: 97%;
+    margin: 0 auto;
+    justify-content: center; /* по центру по горизонталі */
+    align-items: center; /* по центру по вертикалі */
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.purchase-img img {
+    display: flex;
+    width: 100px;
+    height: auto;
+    padding: 5px;
+}
+
+.purchase-logo img {
+    width: 100px;
+    padding: 5px;
+}
+
+.purchase__title {
+    background-color: #000; /* Колір фону */
+    height: 3px; /* Висота полоси */
+    width: 100%; /* Ширина, яка розтягнеться на всю ширину вікна */
+}
+
+.purchase-button {
+    display: inline-block;
+    padding: 13px 20px; /* розміри поля в кнопці */
+    background-color: rgb(74, 74, 201); /* колір фону кнопки */
+    font-size: 18px;
+    color: #fff; /* колір тексту */
+    text-decoration: none; /* видалити підкреслення посилання */
+    border-radius: 5px; /* закругленість кутів кнопки */
+    margin-left: 5px; /* здвиг кнопки ліворуч на 10px */
+    margin-right: 5px; /* здвиг кнопки ліворуч на 10px */
+}
+
+.purchase-button:hover {
+    background-color: rgb(155, 146, 146); /* колір фону кнопки при наведенні */
+}
+
+
+.krossovki-card:hover .krossovki-color-other img {
+    display: inline-block; /* При наведенні на .catalog-card відображаємо картинки в блоку .catalog-color-other */
+}
+
+.krossovki-card:hover .krossovki-card__title  {
+    display: none; /* При наведенні на .catalog-card приховуємо всі елементи з класом .catalog-card__title */
+}
+
+.krossovki-card:hover .name {
+    display: inline-block; /* При наведенні на .catalog-card відображаємо картинки в блоку .catalog-color-other */
+    color: gray;
+    font-size: 22px;
+}
+
+
+
+
+@media (max-width: 1200px) {
+    .konteyner-proba {
+        flex-direction: column;  
+    }
+
+    .malenkie-kartinki {
+        display: flex; 
+        justify-content: center;  
+        align-items: center;  
+        height: 100px;
+        width: 100%;
+     }
+
+     .malenkie-kartinki__razmer {
+        margin: 2px;
+     }
+
+     .bolshaya-kartinka {
+        width: 100%;  
+        height: auto;  
+     }
+
+     
+    .dostupni-rozmiry,
+    .Kratroe-opisanie {
+        width: 100%;  
+    }
+
+    .konteyner-proba-dva {
+        order: 1;  
+        width: 100%;  
+    }
+    .konteyner-proba-dva {
+        max-height: none;  
+        overflow: visible;  
+    } 
+
+    
+}
+
+@media (max-width: 1290px) {
+    .nazvanie-krossovka__variantcvetyov img {
+        width: 75px;
+        display: inline-block;  
+        justify-content: center; 
+        align-items: center;  
+    }
+    }
+
+    @media (max-width: 1280px) {
+        .nazvanie-krossovka__variantcvetyov img {
+            width: 70px;
+            display: inline-block;  
+            justify-content: center;  
+            align-items: center;  
+        } 
+    } 
+
+@media (max-width: 1266px) {
+.nazvanie-krossovka__variantcvetyov img {
+    width: 70px;
+    display: inline-block;  
+    justify-content: center;  
+    align-items: center;  
+}
+}
+@media (max-width: 1243px) {
+    .nazvanie-krossovka__variantcvetyov img {
+        width: 65px;
+        display: inline-block;  
+        justify-content: center;  
+        align-items: center;  
+    }
+    }
+
+    @media (max-width: 1220px) {
+        .nazvanie-krossovka__variantcvetyov img {
+            width: 65px;
+            display: inline-block;  
+            justify-content: center;  
+            align-items: center;  
+        } 
+    }
+    @media (max-width: 1213px) {
+        .nazvanie-krossovka__variantcvetyov img {
+            width: 60px;
+            display: inline-block;  
+            justify-content: center;  
+            align-items: center;  
+        }
+    }
+        @media (max-width: 1200px) {
+            .nazvanie-krossovka__variantcvetyov img {
+                width: 100px;
+                display: inline-block;  
+                justify-content: center;  
+                align-items: center;  
+            }
+        }
+    
+
+@media (max-width: 531px) {
+    .nazvanie-krossovka__variantcvetyov img{
+        width: 90px;
+        display: inline-block;  
+        justify-content: center;  
+        align-items: center;  
+
+    }
+
+    .nazvanie-krossovka__variantcvetyov {
+        justify-content: center;  
+    }
+    
+}
+
+@media (max-width: 488px) {
+    .nazvanie-krossovka__variantcvetyov img {
+        width: 80px;
+        display: inline-block;  
+        justify-content: center;  
+        align-items: center;  
+    }
+}
+
+@media (max-width: 433px) {
+    .nazvanie-krossovka__variantcvetyov img {
+        width: 70px;
+        display: inline-block;  
+        justify-content: center;  
+        align-items: center;  
+    } 
+}
+
+@media (max-width: 1200px) {
+.malenkie-kartinki {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: auto; /* змінив на auto, щоб висота контейнера пристосовувалась до вмісту */
+    width: 100%; /* змінив на 100%, щоб контейнер був на всю ширину екрану */
+    overflow: hidden;
+    flex-wrap: nowrap;
+ }
+
+ .malenkie-kartinki__razmer {
+    width: 10%; /* Змінено на відсоток ширини контейнера */
+    height: auto;
+     flex-shrink: 0; /* Забороняє зменшення розміру зображення */
+}
+}
+
+@media (max-width: 1290px) {
+    .malenkie-kartinki {
+        display: block; 
+        margin-right: 5px;
+     }
+
+     .malenkie-kartinki img {
+        margin-right: 5px;
+        margin-bottom: 5px;
+        max-width: 65px; /* Фіксована ширина для картинок */
+        object-fit: contain; /* Вмістити всю картинку в межі контейнера */
+    }
+
+.malenkie-kartinki__razmer {
+    margin: 2px;
+}
+    }
+    
+   
+    @media (max-width: 1285px) {
+        .dostupni-rozmiry__Size {
+            display: inline-block;
+            width: 50px;
+            height: 25px;
+            font-size: 16px;
+            line-height: 25px;
+            text-align: center;  
+            margin-right: 5px; 
+            margin-left: 5px; 
+            margin-bottom: 5px;
+            border: 2px solid grey;
+        }
+    }
+  
+
+
+    @media (max-width: 540px) {
+        .krossovki-card__variant {
+            padding-bottom: 15px;
+        }
+    }
+
+ 
+
+        
+   
+
+ 
+    
+ 

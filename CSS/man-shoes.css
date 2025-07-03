@@ -1,0 +1,109 @@
+.shoes-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.shoes-other {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+     margin: 0 auto;
+}
+
+.shoes-other__text {
+    color: grey;
+    font-size: 32px;
+    max-width: 100%;  
+    text-decoration: underline;  
+    text-underline-offset: 7px;  
+    padding: 10px;
+    }
+    
+    .shoes-card {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 200px;  
+        width: 100%;  
+        border: 1px solid grey;
+        padding: 10px;
+        border: none; 
+        transition: border 0.3s ease;
+    }
+    
+    .shoes-card__title {
+        font-size: 16px;
+        gap: 1rem;
+    }
+
+
+    .other {
+        text-underline-offset: 7px;  
+    }
+    
+    .shoes-card img {
+        height: auto;
+        max-width: 100%; 
+   
+    }
+
+    .color {
+        color: gray;
+        font-size: 14px;
+    }
+
+    .shoes-card:hover {
+        outline: 1px solid grey;  
+
+    }
+
+    .filters {
+        margin-top: 5rem;
+    }
+
+   
+
+    @media (max-width: 768px) {
+        .shoes-other__text {
+            text-align: center;  
+            margin: 0 auto;  
+        }
+    }
+
+    .filters-container {
+        width: 120px;
+        border: 3px solid grey;
+        border-radius: 15px;
+        margin-left: 100px; 
+        padding-left: 1rem;
+         
+    }
+
+    .box {
+        width: 100px;
+        height: 30px;
+        border: 3px solid grey;
+        border-radius: 15px;
+        display: none;
+        text-align: center;
+        align-items: center; 
+        margin: 5px;
+    }
+
+
+    .filters {
+        display: inline;
+        width: 150px;
+        border: 3px solid grey;
+        border-radius: 15px;
+        margin-left: 100px; 
+        padding-left: 1rem;
+    }
+
+    #red:checked ~ .red {
+      display: block;
+    }
+
+    

@@ -1,0 +1,82 @@
+.shoes-technologies {
+    width: 80%;
+    display: flex;
+    margin: 0 auto; 
+}
+
+
+.shoes-technologies__other {
+    border: 2px solid yellow;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid grey;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.shoes-technologies__name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+    font-size: 32px;
+}
+
+.shoes-technologies__text { 
+     display: flex; 
+     align-items: center; 
+     justify-content: center;
+}
+
+
+.shoes-technologies__img {
+     display: flex;
+     justify-content: center;
+}
+
+.shoes-technologies__name img {
+  width: 200px;  
+  height: auto;
+}
+
+.shoes-technologies__img img {
+    width: 200px;  
+    height: auto;
+    border-radius: 50%;
+}
+
+
+@media (max-width: 1115px) {
+    .shoes-technologies__name {
+        width: 100%;  
+        height: auto;  
+        margin-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .shoes-technologies__img {
+        width: 100%;  
+        height: auto;  
+        margin-right: 10px;
+    }
+
+    .shoes-technologies__other {
+        flex-wrap: wrap;  
+        }
+        
+}
+
+@media (max-width: 768px) {
+    .shoes-technologies__other {
+        flex-wrap: wrap;  
+        }
+}
+
+@media (max-width: 490px) {
+    .about-adidas__title {
+        font-size: 55px;
+    }
+}
+
+ 
+ 

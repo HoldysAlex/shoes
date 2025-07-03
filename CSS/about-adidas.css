@@ -1,0 +1,63 @@
+.about-adidas-banner {
+    position: relative;   
+    text-align: center;  
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;  
+    margin-bottom: 1rem;
+}
+
+.about-adidas__img img {
+    width: 100%;  
+    display: block;  
+}
+
+.about-adidas__title {
+    position: absolute;  
+    top: 50%;   
+    left: 50%;  
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.adidas-about {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.adidas-about__Name {
+    text-align: center; 
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.adidas-Boots img {
+    float: left;  
+    width: 300px;
+    margin-right: 10px;  
+}
+
+.adidas-about__other__all {
+    font-size: 20px;
+    text-indent: 2em;  
+
+}
+
+.adidas-Boots-2 img {
+    float: right;
+    width: 500px;
+}
+
+.adidas-Boots-3 img {
+    float: left;
+    width: 500px; 
+}

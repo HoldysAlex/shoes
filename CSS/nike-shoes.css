@@ -1,0 +1,116 @@
+.catalog-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.catalog-other {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+     margin: 0 auto;
+}
+
+.catalog-other__text {
+    color: grey;
+    font-size: 32px;
+    max-width: 100%;  
+    text-decoration: underline;  
+    text-underline-offset: 7px;  
+    padding: 10px;
+    }
+    
+    .catalog-card {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 400px;  
+        width: 100%;  
+        border: 1px solid grey;
+        padding: 10px;
+        border: none; 
+        transition: border 0.3s ease;
+    }
+    
+    .bolshaya-kartinka-2 {
+        display: none;
+    }
+    
+    .catalog-card__title {
+        font-size: 16px;
+        gap: 1rem;
+    }
+
+
+    .other {
+        text-underline-offset: 7px;  
+    }
+    
+    .catalog-card img {
+        height: auto;
+        max-width: 100%;  
+   
+    }
+
+    .color {
+        color: gray;
+        font-size: 14px;
+    }
+
+    .catalog-card:hover {
+        outline: 1px solid grey;  
+
+    }
+
+    .catalog-color-other {
+        display: flex;  
+    }
+    .catalog-color-other img {
+        width: auto;  
+        height: 50px;  
+        margin-right: 5px;  
+        transition: transform 0.3s ease;
+    }
+
+    
+    
+    .catalog-color-other img:hover {
+        transform: scale(1.3);  
+    }
+
+    .catalog-color-other__more {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+
+    .catalog-color-other__more__number {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 50px;
+        text-align: left;  
+        margin-right: 5px; 
+        margin-left: 5px; 
+        margin-bottom: 5px;
+        color: grey;
+    }
+
+
+    @media (max-width: 768px) {
+        .catalog-other__text {
+            text-align: center;  
+            margin: 0 auto;  
+        }
+    }
+
+    
+   
+   
+
+    
+
+    

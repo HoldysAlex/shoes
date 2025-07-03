@@ -1,0 +1,159 @@
+.about-banner {
+    position: relative;   
+    text-align: center;  
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;  
+    margin-bottom: 1rem;
+}
+
+.about-banner__img img {
+    width: 100%;  
+    display: block;  
+}
+
+.about-banner__title {
+    position: absolute;  
+    top: 50%;   
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+  .about-brand__other {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;  
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    gap: 1rem;
+    align-items: center;
+    border: 2px solid grey;
+}
+
+.about-brand__img {
+    display: block;
+    height: auto;
+    border-radius: 5px;
+    padding: 5px;
+} 
+
+.about-brand__img img{
+    object-fit: contain;
+    height: auto;
+    border-radius: 5px;
+}
+
+.about-brand__other__text {
+    width: auto;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;  
+}
+
+.about-brand__other__adidas img {
+    display: flex;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;  
+}
+
+@media (max-width: 768px) {
+    .about-brand__other {
+        flex-direction: column;
+    }
+
+    .about-banner__title {
+        font-size: 30px;
+}
+}
+
+
+ 
+
+.goldman__other {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid grey;
+    padding: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.goldman__other__boy-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goldman__other__text { 
+     flex-grow: 1;
+     align-self: center;
+     margin-right: 10px;
+     overflow: hidden;  
+     max-height: 7.2rem;
+     line-height: 1.2em;  
+     position: relative; 
+}
+
+ .goldman__other__text::after {  
+     content: '\2026';    
+    position: absolute;  
+      color: #000;    
+
+} 
+
+ .goldman__other__text:hover::after {   
+      color: #00ff00;  
+  } 
+
+.goldman__other__boy-2 {
+     display: flex;
+     justify-content: center;
+}
+
+.goldman__other__boy-1 img {
+  width: 200px;  
+  height: auto;
+}
+
+.goldman__other__boy-2 img {
+    width: 200px;  
+    height: auto;
+
+}
+
+
+@media (max-width: 1115px) {
+    .goldman__other__boy-1 {
+        width: 100%;  
+        height: auto;  
+        margin-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .goldman__other__boy-2 {
+        width: 100%;  
+        height: auto;  
+        margin-right: 10px;
+    }
+
+    .goldman__other {
+        flex-wrap: wrap;  
+        }
+        
+}
+
+@media (max-width: 768px) {
+    .goldman__other {
+        flex-wrap: wrap;  
+        }
+}

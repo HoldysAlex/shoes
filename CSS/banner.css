@@ -1,0 +1,12 @@
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+.brand__card {
+    margin-top: 10px;
+}
+
+.pimp {
+    border: 2px solid gray;
+}

@@ -1,0 +1,61 @@
+.choose-container {
+    width: 53%;
+    height: auto;
+    
+    margin: 0 auto;
+}
+
+.return-menu {
+    margin-bottom: 10px;
+}
+
+.return-menu__text {
+    font-size: 18px;
+    color: gray;
+}
+
+.choose-name__img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; 
+}
+
+.choose-name {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 10px;  
+}
+
+.choose-name__other span {
+    font-size: 16px;
+    display: block;  
+    margin-bottom: 10px; 
+    text-indent: 1em;  
+  }
+
+
+  .image-with-text {
+    display: flex;  
+    align-items: center; 
+}
+
+.image-with-text img {
+    height: 1em;  
+    width: auto;  
+    margin-right: 0.5em; 
+    vertical-align: middle;   
+}
+
+ 
+
+@media (max-width: 490px) {
+    .about-brand__other {
+        flex-direction: column;
+    }
+
+    .about-banner__title {
+        font-size: 30px;
+}
+}
